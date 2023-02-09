@@ -2,14 +2,14 @@ package com.longer.verifyedittext;
 
 import android.graphics.drawable.Drawable;
 
-interface IPhoneCode {
+public interface IPhoneCode {
 
     void setOnVCodeCompleteListener(OnVCodeInputListener OnVCodeInputListener);
 
     /**
      * 输入完成回调接口
      */
-    interface OnVCodeInputListener {
+    public interface OnVCodeInputListener {
         //完成输入
         void vCodeComplete(String verificationCode);
 
