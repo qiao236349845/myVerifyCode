@@ -7,7 +7,7 @@ Dependency
 
 ```groovy
 dependencies {
-    implementation 'com.longer:verifycode:1.0.4'
+    implementation 'com.github.qiao236349845:myVerifyCode:1.0.1'
 }
 ```
 
